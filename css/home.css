@@ -1,0 +1,364 @@
+
+
+/* css do menu de navegaçao esta no arquivo "menuFooter" */
+
+
+
+
+
+
+
+/* começo do css do main */
+
+/* começo do css do main1 */
+/* div principal do home*/
+main {
+    background-color: var(--branco);
+}
+
+.dMain1 {
+    background-image: url('../img/fundo22.jpeg');
+    background-position: center;
+    background-size: cover;
+    color: var(--branco);
+
+}
+
+
+/* div que armazena as 3 divs do home1 */
+.imgTextoBtn {
+    display: flex;
+    padding: 20px;
+}
+
+
+/* 1 das 3 divs do home1 */
+.texto {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 2rem;
+    min-height: 400px;
+
+}
+
+.h2efeito {
+    color: var(--cinza-medio);
+    font-size: 60pt;
+    font-family: var(--font-titulo2);
+    font-weight: 650;
+}
+
+.pEfeito {
+    font-size: var(--font-pp);
+    color: var(--branco);
+    margin-bottom: 10px;
+    display: none;
+}
+
+.dbtntex {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.dbtntex button {
+    display: none;
+    padding: 13px;
+    font-size: var(--font-p);
+    font-weight: 800;
+    background-color: var(--azul-medio);
+    border: none;
+    border-radius: 30px;
+    color: var(--branco);
+    filter: drop-shadow(2px 2px 3px var(--azul-claro));
+}
+
+
+
+/* 2 das 3 divs do home1 */
+.logoHome {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoHome img {
+    height: 250px;
+    transition: all 0.5s;
+}
+
+
+/* 3 das 3 divs do home1 */
+.verULtimaPt {
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.verULtimaPt input {
+    border: none;
+    width: 300px;
+    border-radius: 30px;
+    padding: 13px;
+    font-size: var(--font-p);
+    background-color: var(--branco);
+    filter: drop-shadow(2px 2px 3px var(--azul-claro));
+}
+
+.verULtimaPt input:focus-visible {
+    outline: none;
+}
+
+
+
+.verULtimaPt button {
+    filter: drop-shadow(2px 2px 3px var(--azul-claro));
+    width: 300px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: var(--font-p);
+    font-weight: 600;
+    color: var(--branco);
+    background: linear-gradient(160deg, var(--preto), var(--cinza-forte), var(--azul-medio));
+}
+
+
+
+
+
+
+
+
+/* botoes do final */
+
+.pcMain1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0px;
+}
+
+.pcMain1 button {
+    border: none;
+    border-radius: 30px;
+    padding: 12px;
+    font-size: var(--font-m);
+    background: linear-gradient(160deg, var(--azul-forte), var(--azul-claro));
+    color: var(--branco);
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.pcMain1 button:hover {
+    box-shadow: 3px 3px 6px #142240;
+    transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+/* main2 */
+.card {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--branco);
+}
+
+.imgCard {
+    max-width: 250px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.imgCard h3 {
+    font-size: var(--font-mg);
+    color: var(--cinza-forte);
+    margin-bottom: 10px;
+}
+
+.imgCard p {
+    font-size: var(--font-pp);
+    color: var(--cinza-forte);
+    margin-bottom: 10px;
+}
+
+
+
+.dimgC {
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, var(--cinza-forte), var(--cinza-medio), var(--cinza-claro));
+    border-radius: 50%;
+}
+
+.dimgC img {
+    height: 80px;
+}
+
+
+.btnCard {
+    padding: 10px;
+    font-size: var(--font-p);
+    background: linear-gradient(160deg, var(--cinza-medio), var(--azul-forte));
+    color: var(--branco);
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* rodape rodape rodape rodape rodape rodape rodape rodape rodape rodape rodape rodape rodape rodape rodape rodape */
+footer {
+    background-color: var(--cinza-forte);
+    border-top: solid 2px var(--cinza-claro);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    transition: ease 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+    :root {
+        --font-g: 25pt;
+        --font-mg: 20pt;
+        --font-m: 17pt;
+        --font-p: 12pt;
+        --font-pp: 11pt;
+    }
+
+/****************** css do menu de navegaçao ta no arquivo "menuFooter"*******************************/
+
+    /* responsividade do main */
+    .texto {
+        display: none;
+    }
+
+    .imgTextoBtn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Estilo para o container geral */
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0px 15%;
+        max-width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    .imgCard {
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+    }
+
+    .dimgC img {
+        width: 100%;
+        max-width: 80px;
+        height: auto;
+        margin: 0 auto 10px;
+    }
+
+}
+
+
+
+@media (max-width: 600px) {
+    :root {
+        --font-g: 21pt;
+        --font-mg: 18pt;
+        --font-m: 15pt;
+        --font-p: 11pt;
+        --font-pp: 10pt;
+    }
+
+    .pcMain1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 250px;
+
+        margin: 20px auto;
+    }
+
+    .opcMin1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .opcMin1 button {
+        font-size: var(--font-p);
+        width: 110px;
+        padding: 10px;
+    }
+
+
+    /* cards do main */
+    .card {
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        gap: 10px;
+
+    }
+    .btnCard {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
